@@ -1,0 +1,46 @@
+/* Shared Styles */
+.app-header {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .theme-minimalist {
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .theme-engaging {
+    background: #121212;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-btn {
+    padding: 8px 16px;
+    margin: 10px;
+  }
+  
+  /* List Styles */
+  .minimalist-list {
+    padding: 20px;
+  }
+  
+  .gamified-list {
+    padding: 20px;
+    animation: fadeIn 1s;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
